@@ -1,4 +1,4 @@
-##Produces plot1.png
+##Produces plot1.png Exploratory Data Analysis Course Project 1
 
 #Read all of the data
 data<-read.table("household_power_consumption.txt", header=TRUE, sep=";", na.strings="?", stringsAsFactors=FALSE)
@@ -14,5 +14,5 @@ data$DateTime<-strptime(data$DateTime, format="%d/%m/%Y ,  %H:%M:%S")
 
 #Create plot1.png
 png(filename="plot1.png",width = 480, height = 480, units = "px")
-hist(data$Global_active_power,xlab="Global Active Power (kilowatts)",col="red", main="Global Active Power")
+hist(data$Global_active_power, xlab="Global Active Power (kilowatts)",col="red", main="Global Active Power")
 dev.off()
