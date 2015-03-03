@@ -1,4 +1,4 @@
-##Produces plot4.png Exploratory Data Analysis Course Project 1
+##Produces plot4.png Exploratory Data Analysis Course 012 Project 1
 
 #Read all of the data
 data<-read.table("household_power_consumption.txt", header=TRUE, sep=";", na.strings="?", stringsAsFactors=FALSE)
